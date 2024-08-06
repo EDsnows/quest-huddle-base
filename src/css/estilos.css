@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background: url('../images/bg-desktop.svg') center center no-repeat var(--body-bg-color);
+    background: url('../images/bg-desktop.svg') center center no-repeat var(--primary-color);
     height: 100vh;
     padding: 10px 60px;
     color: #fff;
@@ -55,10 +55,16 @@ body{
 
 .main-flex .container-info .btn-register{
     background-color: #fff;
-    color: var(--active-color);
+    color: var(--primary-color);
     padding: 1.5rem 5.5rem;
     align-self: flex-start;
     border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.main-flex .container-info .btn-register:hover{
+    background-color: var(--active-color);
+    color: #fff;
 }
 
 .main-flex .container-info .btn-register a{
@@ -67,7 +73,6 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
 }
-
 
 .footer{
     display: flex;
@@ -91,7 +96,17 @@ body{
     text-align: center;
 }
 
+
 .footer .container-social .fa-facebook-f,.fa-twitter,.fa-instagram{
     font-size: 2rem;
     color: #fff;
+}
+
+.footer .container-social .border-style:hover, .border-style:hover > a i{
+    border-color: var(--active-color);
+    color: var(--active-color);
+}
+
+.footer .container-social .border-style:hover .fa-facebook-f{
+    color: var(--active-color);
 }
