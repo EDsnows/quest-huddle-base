@@ -5,6 +5,7 @@ html{
 body{
     background: url('../images/bg-desktop.svg') center center no-repeat var(--primary-color);
     height: 100vh;
+    width: 100vw;
     padding: 10px 60px;
     color: #fff;
     font-family: var(--font-text);
@@ -83,7 +84,7 @@ body{
     display: flex;
 }
 
-.footer .container-social > div{
+.footer .container-social > div:not(:first-child){
     margin-left: 2rem;
 }
 
