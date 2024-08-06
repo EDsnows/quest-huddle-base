@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     
-    .main-flex .container-ilustration-image img{
+    .main-flex .container-illustration-image img{
         height: 28rem;
     }
 
@@ -47,13 +47,12 @@
         gap: 5rem;
     }
 
-    .main-flex .container-ilustration-image img{
+    .main-flex .container-illustration-image img{
         height: auto;
         width: 33.5rem;
     }
 
     .main-flex .container-info{
-        padding: 0;
         text-align: center;
     }
 
@@ -70,7 +69,7 @@
 }
 
 @media (max-width: 320px) {
-    .main-flex .container-ilustration-image img {
+    .main-flex .container-illustration-image img {
         height: auto;
         width: 25.5rem;
     }

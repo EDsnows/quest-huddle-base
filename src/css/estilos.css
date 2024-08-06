@@ -17,7 +17,6 @@ body{
 }
 
 .header .logo img{
-    max-width: 100%;
     height: 8vh;
 }
 
@@ -25,17 +24,17 @@ body{
     display: flex;
     align-items: center;
     width: 100%;
-    padding-top: 2rem;
+    margin-top: 2rem;
+    gap: 5rem;
 }
 
-.main-flex .container-ilustration-image img{
+.main-flex .container-illustration-image img{
     height: 40rem;
 }
 
 .main-flex .container-info{
     display: flex;
     flex-direction: column;
-    padding-left: 5rem;
 }
 
 .main-flex .container-info h1,p,div.btn-register{
@@ -72,11 +71,11 @@ body{
     text-align: center;
     font-weight: 400;
     font-size: 1.5rem;
-    text-decoration: none;
 }
 
 .footer{
     display: flex;
+    padding-top: 2%;
     justify-content: flex-end;
 }
 
